@@ -11,7 +11,6 @@ const starContainerStyle = {
   display: "flex",
 };
 
-// eslint-disable-next-line react/no-typos
 StarRating.propTypes = {
   maxRating: PropTypes.number,
   defaultRating: PropTypes.number,
@@ -21,7 +20,6 @@ StarRating.propTypes = {
   className: PropTypes.string,
   onSetRating: PropTypes.func,
 };
-//{maxrating = 5 } is default rating
 
 export default function StarRating({
   maxRating = 5,
